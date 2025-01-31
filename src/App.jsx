@@ -1,9 +1,11 @@
+import { RouterProvider } from "react-router-dom"
+import router from "./Routes/RouteNav/Route.jsx"
 
 function App() {
 
   return (
     <div>
-      <h1>heelo</h1>
+      <RouterProvider router={router} />
     </div>
   )
 }

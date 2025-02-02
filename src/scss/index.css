@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
 body {
-  font-family: "Ubuntu", serif;
+  font-family: "Sora", serif;
   line-height: 1.6;
 }
 
@@ -25,6 +25,12 @@ a:hover {
   text-decoration: underline;
 }
 
+:root {
+  --primary: #179800;
+  --secondary: #EFEBE3;
+  --text: #111111;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -41,8 +47,49 @@ a:hover {
   justify-content: center;
 }
 
+.btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-p {
+  background: var(--primary);
+  color: var(--secondary);
+  border: 1px solid transparent;
+  transition: 0.3s;
+  font-size: 18px;
+}
+.btn-p:hover {
+  background: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-s {
+  background: transparent;
+  color: var(--text);
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  transition: 0.3s;
+  font-size: 18px;
+}
+.btn-s:hover {
+  background: var(--primary);
+  color: var(--secondary);
+  border-color: transparent;
+}
+
+body {
+  background: var(--text);
+}
+
 header {
   width: 100%;
+  background: var(--secondary);
 }
 header .mainheader {
   width: 100%;
@@ -56,27 +103,62 @@ header .mainheader .logo img {
 }
 header .mainheader .navbar {
   height: 100%;
-  color: #000;
 }
 header .mainheader .navbar ul {
   height: 100%;
   display: flex;
   gap: 2rem;
+  font-size: 20px;
 }
 header .mainheader .navbar ul li {
   display: grid;
   place-items: center;
+  color: var(--text);
 }
 header .mainheader .navbar ul li a {
   text-decoration: none;
-  color: #000;
+  color: var(--text);
+  transition: 0.3s;
 }
 header .mainheader .navbar ul li a:hover {
-  color: #f00;
+  color: var(--primary);
 }
 header .mainheader .buttons {
+  height: 100%;
   gap: 1rem;
 }
 header .mainheader .buttons .icones {
   gap: 1rem;
+}
+header .mainheader .flexnav {
+  gap: 4rem;
+}
+
+.hero {
+  background: var(--secondary);
+  padding: 0;
+  padding-top: 90px;
+}
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 0;
+}
+.hero .container .textTop {
+  max-width: 830px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero .container .textTop h1 {
+  font-size: 58px;
+  color: var(--text);
+}
+.hero .container .textTop h1 span {
+  color: var(--primary);
+}
+.hero .container .image img {
+  width: 100%;
 }/*# sourceMappingURL=index.css.map */

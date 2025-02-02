@@ -10,21 +10,23 @@ export default function Header() {
                     <img src="/Vector.png" alt="" />
                 </div>
 
-                <div className="navbar">
-                    <ul className='flex flex-cen'>
-                        <li><NavLink to="/">Product</NavLink></li>
-                        <li><NavLink to="/company">services</NavLink></li>
-                        <li><NavLink to="/services">contact up</NavLink></li>
-                    </ul>
-                </div>
-
-                <div className="buttons flex flex-cen">
-                    <div className="icones flex flex-cen">
-                        <Search />
-                        <ShoppingCart />
+                <div className="flexnav flex flex-cn">
+                    <div className="navbar flex flex-cn">
+                        <ul className='flex flex-cen'>
+                            <li><NavLink to="/product">Product</NavLink></li>
+                            <li><NavLink to="/company">services</NavLink></li>
+                            <li><NavLink to="/services">contact up</NavLink></li>
+                        </ul>
                     </div>
-                    <button className="btn">Login</button>
-                    <button className="btn">Sign Up</button>
+
+                    <div className="buttons flex flex-cn">
+                        <div className="icones flex flex-cn">
+                            <Search />
+                            <ShoppingCart />
+                        </div>
+                        <button className="btn btn-s">Login</button>
+                        <button className="btn btn-p">Sign Up</button>
+                    </div>
                 </div>
 
             </div>

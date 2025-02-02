@@ -1,3 +1,13 @@
+// colors
+
+:root{
+    --primary: #179800;
+    --secondary: #EFEBE3;
+    --text: #111111;
+}
+
+
+
 .container{
     width: 100%;
     max-width: 1200px;
@@ -10,4 +20,38 @@
 .flex-cn{
     align-items: center;
     justify-content: center;
+}
+
+.btn{
+    padding: 0.5rem 1.5rem;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.btn-p{
+    background: var(--primary);
+    color: var(--secondary);
+    border: 1px solid transparent;
+    transition: 0.3s;
+    font-size: 18px;
+    &:hover{
+        background: transparent;
+        color: var(--primary);
+        border-color: var(--primary);
+    }
+}
+.btn-s{
+    background: transparent;
+    color: var(--text);
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    transition: 0.3s;
+    font-size: 18px;
+    &:hover{
+        background: var(--primary);
+        color: var(--secondary);
+        border-color: transparent;
+    }
 }

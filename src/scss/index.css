@@ -29,6 +29,7 @@ a:hover {
   --primary: #179800;
   --secondary: #EFEBE3;
   --text: #111111;
+  --pure: #fff;
 }
 
 .container {
@@ -89,7 +90,7 @@ body {
 
 header {
   width: 100%;
-  background: var(--secondary);
+  background: var(--pure);
 }
 header .mainheader {
   width: 100%;
@@ -135,7 +136,7 @@ header .mainheader .flexnav {
 }
 
 .hero {
-  background: var(--secondary);
+  background-image: linear-gradient(#ffffff, #EFEBE3);
   padding: 0;
   padding-top: 90px;
 }
@@ -159,6 +160,45 @@ header .mainheader .flexnav {
 .hero .container .textTop h1 span {
   color: var(--primary);
 }
+.hero .container .image {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
 .hero .container .image img {
+  width: 100%;
+}
+
+.servs {
+  padding: 140px 0;
+  background: var(--pure);
+}
+.servs h2 {
+  font-size: 36px;
+  color: var(--primary);
+}
+.servs .services {
+  gap: 2rem;
+}
+.servs .services .service {
+  max-width: 424px;
+  padding: 32px;
+  background: var(--secondary);
+  display: grid;
+  gap: 1rem;
+  place-items: center;
+  text-align: center;
+  border-radius: 25px;
+}
+.servs .services .service .icon {
+  width: 150px;
+  height: 150px;
+  padding: 2rem;
+  background: var(--pure);
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+}
+.servs .services .service .icon img {
   width: 100%;
 }/*# sourceMappingURL=index.css.map */

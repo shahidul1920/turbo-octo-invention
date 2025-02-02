@@ -1,9 +1,14 @@
 import React from 'react'
+import { useLoaderData } from 'react-router-dom'
+import Services from '../component/Services'
 
 export default function Home() {
+  const services = useLoaderData()
+  
   return (
-    <div className='hero'>
+    <div>
       {/* hero section */}
+      <div className="hero">
       <section className='container'>
         <div className="textTop">
           <h1>
@@ -19,6 +24,10 @@ export default function Home() {
           <img src="/Hero.png" alt="" />
         </div>
       </section>
+      </div>
+
+      {/* services section */}
+      <Services services={services} />
 
 
 

@@ -29,6 +29,8 @@ export default function Home() {
       {/* services section */}
       <Services services={services} />
 
+      {/* products section */}
+
 
 
 

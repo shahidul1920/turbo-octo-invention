@@ -2,6 +2,7 @@ import React from 'react'
 import { useLoaderData } from 'react-router-dom'
 import Services from '../component/Services'
 import PopProducts from '../component/PopProducts'
+import ArrivalOffers from '../component/ArrivalOffers'
 
 export default function Home() {
   const services = useLoaderData()
@@ -33,6 +34,8 @@ export default function Home() {
       {/* products section */}
       <PopProducts />
 
+      {/* Arrival section */}
+      <ArrivalOffers />
 
 
 

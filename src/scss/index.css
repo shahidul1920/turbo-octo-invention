@@ -288,4 +288,120 @@ header .mainheader .flexnav {
 .popProducts .prodBox .otherProds .prod .text .icn p {
   margin: 0;
   padding: 0;
+}
+
+.arrival {
+  background: var(--pure);
+  padding: 140px 0;
+  padding-bottom: 400px;
+}
+.arrival .arrNoffer {
+  display: flex;
+  gap: 20px;
+}
+.arrival .arrNoffer .left {
+  width: 60%;
+  border-radius: 30px;
+  background: #115414;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrival .arrNoffer .left .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.arrival .arrNoffer .left .text h2 {
+  font-size: 40px;
+  color: var(--pure);
+}
+.arrival .arrNoffer .left .text button {
+  width: 100%;
+  background: #63B76D;
+  color: var(--pure);
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.arrival .arrNoffer .right {
+  width: 50%;
+  border-radius: 30px;
+  background: #102861;
+  padding: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrival .arrNoffer .right .text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.arrival .arrNoffer .right .text h2 {
+  font-size: 40px;
+  color: var(--pure);
+}
+.arrival .arrNoffer .right .text button {
+  width: 100%;
+  background: #2A4D97;
+  color: var(--pure);
+  outline: none;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.main-footer {
+  background: var(--primary);
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.main-footer .subsSecction {
+  position: absolute;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--secondary);
+  max-width: 1320px;
+  width: 100%;
+  padding: 54px 100px;
+  display: flex;
+  margin: 0 auto;
+}
+.main-footer .footer {
+  padding-top: 15rem;
+  padding-bottom: 5rem;
+}
+.main-footer .footer h1 {
+  margin-bottom: 2rem;
+}
+.main-footer .footer .footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  color: var(--pure);
+}
+.main-footer .footer .footerContainer .footerLogo img {
+  width: 150px;
+  margin-bottom: 2rem;
+}
+.main-footer .footer .footerContainer .footerLogo p {
+  max-width: 400px;
+}
+.main-footer .footer .footerContainer .footerLinks ul li a {
+  color: var(--pure);
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

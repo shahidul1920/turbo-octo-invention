@@ -5,7 +5,7 @@ export default function Services(services) {
     return (
         <div className="servs">
             <div className='container'>
-                <h2>Services</h2>
+                <h2 className='heading-min'>Services</h2>
                 <div className="services flex flex-cn">
                     {services.services.map((service) => (
                         <div className="service" key={service.id}>

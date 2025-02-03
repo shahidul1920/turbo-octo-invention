@@ -35,7 +35,7 @@ export default function PopProducts() {
                                     <img src={p.image} alt="" />
                                 </div>
                                 <div className="text">
-                                    <div className="icn flex flex-cen">
+                                    <div className="icn">
                                         <img src="/star.png" alt="" />
                                         <p>{p.rating}</p>
                                     </div>

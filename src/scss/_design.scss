@@ -125,6 +125,9 @@ header{
 .popProducts{
     background: var(--secondary);
     padding: 140px 0;
+    .container{
+        padding: 0;
+    }
     .prodBox{
         width: 100%;
         display: flex;
@@ -136,6 +139,23 @@ header{
             height: 400px;
             background-image: linear-gradient(130deg,var(--primary), var(--secondary));
             border-radius: 20px;
+            h2{
+                font-size: 32px;
+                color: var(--pure);
+            }
+            p{
+                font-size: 16px;
+                margin: 1rem 0;
+            }
+            button{
+                background: var(--pure);
+                outline: none;
+                border: none;
+                padding: 0.5rem 1.5rem;
+                border-radius: 5px;
+                font-size: 20px;
+                margin-top: 1rem;
+            }
             img{
                 position: absolute;
                 bottom: 0;
@@ -148,11 +168,40 @@ header{
             flex-wrap: wrap;
             gap: 23px;
             .prod{
-                width: 275px;
+                //width: 275px;
+                flex:1;
                 background: var(--pure);
                 border-radius: 10px;
                 padding: 1rem;
                 display: flex;
+                gap: 1rem;
+                .img{
+                    width: 86px;
+                    height: 86px;
+                    background: var(--secondary);
+                    padding: 8px;
+                    border-radius: 10px;
+                    img{
+                        width: 100%;
+                    }
+                }
+                .text{
+                    .icn{
+                        width: 100%;
+                        //padding: .4rem 0;
+                        display: flex;
+                        gap: 0.5rem;
+                        align-items: center;
+                        img{
+                            width: 18px;
+                            height: 18px;
+                        }
+                        p{
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
             }
         }
     }

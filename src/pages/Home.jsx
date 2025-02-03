@@ -1,6 +1,7 @@
 import React from 'react'
 import { useLoaderData } from 'react-router-dom'
 import Services from '../component/Services'
+import PopProducts from '../component/PopProducts'
 
 export default function Home() {
   const services = useLoaderData()
@@ -30,6 +31,7 @@ export default function Home() {
       <Services services={services} />
 
       {/* products section */}
+      <PopProducts />
 
 
 

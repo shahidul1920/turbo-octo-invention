@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Onion 1KG",
+        "price": "$39.99",
+        "image": "/onion.png",
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "name": "Tomato 1KG",
+        "price": "$29.99",
+        "image": "/tomato.png",
+        "rating": 4.0
+    },
+    {
+        "id": 3,
+        "name": "Potato 1KG",
+        "price": "$19.99",
+        "image": "/potato.png",
+        "rating": 4.5
+    },
+    {
+        "id": 4,
+        "name": "Tomato 1KG",
+        "price": "$29.99",
+        "image": "/tomato.png",
+        "rating": 4.0
+    },
+    {
+        "id": 5,
+        "name": "Onion 1KG",
+        "price": "$39.99",
+        "image": "/onion.png",
+        "rating": 4.5
+    },
+    {
+        "id": 6,
+        "name": "Tomato 1KG",
+        "price": "$29.99",
+        "image": "/tomato.png",
+        "rating": 4.0
+    },
+    {
+        "id": 7,
+        "name": "Onion 1KG",
+        "price": "$39.99",
+        "image": "/onion.png",
+        "rating": 4.5
+    },
+    {
+        "id": 8,
+        "name": "Potato 1KG",
+        "price": "$19.99",
+        "image": "/potato.png",
+        "rating": 4.5
+    },
+    {
+        "id": 9,
+        "name": "Potato 1KG",
+        "price": "$19.99",
+        "image": "/potato.png",
+        "rating": 4.5
+    }
+]

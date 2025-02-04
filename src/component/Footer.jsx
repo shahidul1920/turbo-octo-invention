@@ -11,8 +11,8 @@ export default function Footer() {
           <img src="/subImag.png" alt="" />
         </div>
         <div className="text">
-          <h1>Subscribe to our Newsletter</h1>
-          <p>Get the latest updates on new products and upcoming sales</p>
+          <h1>Subscribe to our <br/> Newsletter</h1>
+          <p>Get the latest updates on <br/> new products and upcoming sales</p>
           <input type="email" placeholder='Enter email...' />
           <button className='btn btn-p'>Subscribe</button>
         </div>

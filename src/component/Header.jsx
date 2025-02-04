@@ -1,4 +1,4 @@
-import { MoveRight, Search, ShoppingCart } from 'lucide-react'
+import { Menu, MoveRight, Search, ShoppingCart } from 'lucide-react'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
@@ -8,6 +8,10 @@ export default function Header() {
             <div className="mainheader container">
                 <div className="logo">
                     <img src="/Vector.png" alt="" />
+                </div>
+
+                <div className="navIcnM">
+                    <Menu />
                 </div>
 
                 <div className="flexnav flex flex-cn">

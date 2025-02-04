@@ -222,6 +222,9 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            .img img{
+                width: 100%;
+            }
             .text{
                 height: 100%;
                 display: flex;
@@ -253,6 +256,9 @@ header{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            .img img{
+                width: 100%;
+            }
             .text{
                 height: 100%;
                 display: flex;
@@ -295,6 +301,24 @@ header{
         padding:54px 100px ;
         display: flex;
         margin: 0 auto;
+        border-radius: 25px;
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            input{
+                width: 100%;
+                padding: 0.7rem;
+                border: none;
+                border-radius: 5px;
+                outline: none;
+            }
+        }
+        .img img{
+            width: 100%;
+        }
     }
     .footer{
         padding-top: 15rem;

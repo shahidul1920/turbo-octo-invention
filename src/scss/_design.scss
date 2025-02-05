@@ -1,6 +1,6 @@
 
 body{
-    background: var(--text);
+    //background: var(--text);
 }
 
 header{
@@ -210,7 +210,6 @@ header{
 .arrival{
     background: var(--pure);
     padding: 140px 0;
-    padding-bottom: 400px;
     .arrNoffer{
         display: flex;
         gap: 20px;
@@ -290,6 +289,7 @@ header{
     width: 100%;
     height: auto;
     position: relative;
+    margin-top: 300px;
     .subsSecction{
         position: absolute;
         top: -300px;
@@ -349,6 +349,80 @@ header{
                             text-decoration: none;
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.logInPage{
+    width: 100%;
+    height: 80dvh;
+    background-image: url(/loginBg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 140px 0;
+    .backgrd{
+        width: 100%;
+        height: 80dvh;
+        background-image: linear-gradient(transparent, var(--pure), var(--pure));
+    }
+    .logIn{
+        
+        .logInContainer{
+            text-align: center;
+            h1{
+                font-size: 36px;
+                color: var(--text);
+            }
+            p{
+                font-size: 16px;
+                color: var(--text);
+                margin: 0;
+                span{
+                    color: var(--primary);
+                }
+                margin-bottom: 2rem;
+            }
+            .formSection{
+                max-width: 550px;
+                padding: 2rem;
+                margin: 0 auto;
+                background: var(--pure);
+                //backdrop-filter: blur(10px);
+                .input{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    gap: .7rem;
+                    margin-bottom: 1.4rem;
+                    input{
+                        width: 100%;
+                        padding: 1rem;
+                        border: none;
+                        border: 1px solid rgb(212, 212, 212);
+                        border-radius: 6px;
+                        outline: none;
+                    }
+                }
+                .check{
+                    width: 100%;
+                    height: 25px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .opt{
+                        display: flex;
+                        gap: .5rem;
+                    }
+                    p{
+                        margin: 0;
+                    }
+                }
+                .btn{
+                    width: 100%;
+                    margin-top: 2.4rem;
                 }
             }
         }

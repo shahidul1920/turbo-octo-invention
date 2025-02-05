@@ -32,6 +32,10 @@ a:hover {
   --pure: #fff;
 }
 
+.active {
+  color: var(--primary);
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -69,6 +73,9 @@ a:hover {
   color: var(--primary);
   border-color: var(--primary);
 }
+.btn-p:hover a {
+  color: inherit;
+}
 
 .btn-s {
   background: transparent;
@@ -83,15 +90,14 @@ a:hover {
   color: var(--secondary);
   border-color: transparent;
 }
+.btn-s:hover a {
+  color: inherit;
+}
 
 .heading-min {
   font-size: 36px;
   color: var(--primary);
   margin-bottom: 48px;
-}
-
-body {
-  background: var(--text);
 }
 
 header {
@@ -293,7 +299,6 @@ header .mainheader .flexnav {
 .arrival {
   background: var(--pure);
   padding: 140px 0;
-  padding-bottom: 400px;
 }
 .arrival .arrNoffer {
   display: flex;
@@ -373,6 +378,7 @@ header .mainheader .flexnav {
   width: 100%;
   height: auto;
   position: relative;
+  margin-top: 300px;
 }
 .main-footer .subsSecction {
   position: absolute;
@@ -430,6 +436,76 @@ header .mainheader .flexnav {
   text-decoration: none;
 }
 
+.logInPage {
+  width: 100%;
+  height: 80dvh;
+  background-image: url(/loginBg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 140px 0;
+}
+.logInPage .backgrd {
+  width: 100%;
+  height: 80dvh;
+  background-image: linear-gradient(transparent, var(--pure), var(--pure));
+}
+.logInPage .logIn .logInContainer {
+  text-align: center;
+}
+.logInPage .logIn .logInContainer h1 {
+  font-size: 36px;
+  color: var(--text);
+}
+.logInPage .logIn .logInContainer p {
+  font-size: 16px;
+  color: var(--text);
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.logInPage .logIn .logInContainer p span {
+  color: var(--primary);
+}
+.logInPage .logIn .logInContainer .formSection {
+  max-width: 550px;
+  padding: 2rem;
+  margin: 0 auto;
+  background: var(--pure);
+}
+.logInPage .logIn .logInContainer .formSection .input {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.7rem;
+  margin-bottom: 1.4rem;
+}
+.logInPage .logIn .logInContainer .formSection .input input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  outline: none;
+}
+.logInPage .logIn .logInContainer .formSection .check {
+  width: 100%;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logInPage .logIn .logInContainer .formSection .check .opt {
+  display: flex;
+  gap: 0.5rem;
+}
+.logInPage .logIn .logInContainer .formSection .check p {
+  margin: 0;
+}
+.logInPage .logIn .logInContainer .formSection .btn {
+  width: 100%;
+  margin-top: 2.4rem;
+}
+
 .navIcnM {
   display: none;
 }
@@ -485,13 +561,15 @@ header .mainheader .flexnav {
   }
   .arrival {
     padding: 90px 0;
-    padding-bottom: 350px;
   }
   .arrival .arrNoffer {
     flex-wrap: wrap;
   }
   .arrival .arrNoffer .left, .arrival .arrNoffer .right {
     width: 100%;
+  }
+  .main-footer {
+    margin-top: 250px;
   }
   .main-footer .subsSecction {
     top: -200px;

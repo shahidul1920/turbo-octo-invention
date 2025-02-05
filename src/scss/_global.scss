@@ -7,6 +7,10 @@
     --pure: #fff;
 }
 
+.active{
+    color: var(--primary);
+}
+
 
 
 .container{
@@ -41,6 +45,9 @@
         background: transparent;
         color: var(--primary);
         border-color: var(--primary);
+        a{
+            color: inherit;
+        }
     }
 }
 .btn-s{
@@ -54,6 +61,9 @@
         background: var(--primary);
         color: var(--secondary);
         border-color: transparent;
+        a{
+            color: inherit;
+        }
     }
 }
 .heading-min{

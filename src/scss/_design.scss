@@ -100,6 +100,7 @@ header{
         .service{
             max-width: 424px;
             padding: 32px;
+            flex: 1;
             background: var(--secondary);
             display: grid;
             gap: 1rem;

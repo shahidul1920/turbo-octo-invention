@@ -32,10 +32,6 @@ a:hover {
   --pure: #fff;
 }
 
-.active {
-  color: var(--primary);
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -195,6 +191,7 @@ header .mainheader .flexnav {
 .servs .services .service {
   max-width: 424px;
   padding: 32px;
+  flex: 1;
   background: var(--secondary);
   display: grid;
   gap: 1rem;

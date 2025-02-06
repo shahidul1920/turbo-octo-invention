@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Carrot",
+        "title": "Fresh Carrot",
         "description": "A crunchy, orange root vegetable rich in vitamins and minerals. Carrots are known for their high beta-carotene content, which is converted to vitamin A in the body, promoting good vision and immune function.",
         "price": 1.50,
         "rating": 4.5,
@@ -10,6 +11,7 @@
     {
         "id": 2,
         "name": "Broccoli",
+        "title": "Organic Broccoli",
         "description": "A green vegetable with a tree-like structure, high in fiber and vitamins. Broccoli is a great source of vitamins K and C, folate, and potassium, and it has powerful antioxidants that support overall health.",
         "price": 2.00,
         "rating": 4.7,
@@ -18,6 +20,7 @@
     {
         "id": 3,
         "name": "Spinach",
+        "title": "Fresh Spinach",
         "description": "A leafy green vegetable packed with iron and antioxidants. Spinach is also rich in vitamins A, C, and K, magnesium, and manganese, making it a nutrient-dense addition to any diet.",
         "price": 1.75,
         "rating": 4.6,
@@ -26,6 +29,7 @@
     {
         "id": 4,
         "name": "Tomato",
+        "title": "Juicy Tomato",
         "description": "A juicy red fruit often used as a vegetable in cooking, rich in lycopene. Tomatoes are also a good source of vitamin C, potassium, folate, and vitamin K, and they have been linked to heart health and cancer prevention.",
         "price": 1.25,
         "rating": 4.4,
@@ -34,6 +38,7 @@
     {
         "id": 5,
         "name": "Potato",
+        "title": "Starchy Potato",
         "description": "A starchy tuber that is a staple food in many cultures. Potatoes are a good source of vitamins C and B6, potassium, and fiber, and they can be prepared in a variety of ways, from baking to frying.",
         "price": 0.99,
         "rating": 4.8,
@@ -42,6 +47,7 @@
     {
         "id": 6,
         "name": "Cucumber",
+        "title": "Fresh Cucumber",
         "description": "A refreshing green vegetable with high water content, perfect for salads. Cucumbers are low in calories and contain vitamins K and C, as well as antioxidants that help reduce inflammation.",
         "price": 1.20,
         "rating": 4.3,
@@ -50,6 +56,7 @@
     {
         "id": 7,
         "name": "Bell Pepper",
+        "title": "Colorful Bell Pepper",
         "description": "A colorful vegetable available in red, yellow, and green varieties, rich in vitamins. Bell peppers are high in vitamins A and C, potassium, and fiber, and they add a sweet, crisp flavor to dishes.",
         "price": 2.50,
         "rating": 4.5,
@@ -58,6 +65,7 @@
     {
         "id": 8,
         "name": "Onion",
+        "title": "Versatile Onion",
         "description": "A versatile vegetable used in many dishes, known for its strong flavor. Onions are rich in vitamins C and B6, folate, and potassium, and they contain antioxidants that may help reduce the risk of certain diseases.",
         "price": 1.10,
         "rating": 4.6,
@@ -66,6 +74,7 @@
     {
         "id": 9,
         "name": "Garlic",
+        "title": "Pungent Garlic",
         "description": "A pungent vegetable used to enhance the flavor of many dishes. Garlic is known for its medicinal properties, including its ability to boost the immune system and reduce blood pressure.",
         "price": 1.30,
         "rating": 4.9,
@@ -74,6 +83,7 @@
     {
         "id": 10,
         "name": "Zucchini",
+        "title": "Versatile Zucchini",
         "description": "A green summer squash that is versatile and easy to cook. Zucchini is low in calories and high in vitamins A and C, potassium, and fiber, making it a healthy addition to any meal.",
         "price": 1.40,
         "rating": 4.4,
@@ -82,6 +92,7 @@
     {
         "id": 11,
         "name": "Eggplant",
+        "title": "Spongy Eggplant",
         "description": "A purple vegetable with a spongy texture, great for grilling and baking. Eggplants are rich in fiber, vitamins B1 and B6, and antioxidants, and they have been linked to heart health and weight management.",
         "price": 2.00,
         "rating": 4.2,
@@ -90,6 +101,7 @@
     {
         "id": 12,
         "name": "Cauliflower",
+        "title": "Low-Carb Cauliflower",
         "description": "A white vegetable that can be used as a low-carb substitute for grains. Cauliflower is high in vitamins C and K, folate, and fiber, and it contains compounds that may help protect against cancer.",
         "price": 2.25,
         "rating": 4.5,
@@ -98,6 +110,7 @@
     {
         "id": 13,
         "name": "Kale",
+        "title": "Nutrient-Dense Kale",
         "description": "A leafy green vegetable known for its high nutrient content and health benefits. Kale is packed with vitamins A, C, and K, calcium, and antioxidants, and it has been linked to improved heart health and reduced inflammation.",
         "price": 2.50,
         "rating": 4.7,
@@ -106,6 +119,7 @@
     {
         "id": 14,
         "name": "Sweet Potato",
+        "title": "Sweet Sweet Potato",
         "description": "A sweet, orange tuber that is rich in vitamins and fiber. Sweet potatoes are high in vitamins A and C, potassium, and fiber, and they have been linked to improved blood sugar control and gut health.",
         "price": 1.75,
         "rating": 4.8,
@@ -114,6 +128,7 @@
     {
         "id": 15,
         "name": "Lettuce",
+        "title": "Crisp Lettuce",
         "description": "A leafy green vegetable commonly used in salads and sandwiches. Lettuce is low in calories and contains vitamins A and K, folate, and fiber, making it a healthy and refreshing addition to meals.",
         "price": 1.00,
         "rating": 4.3,
@@ -122,6 +137,7 @@
     {
         "id": 16,
         "name": "Cabbage",
+        "title": "Leafy Cabbage",
         "description": "A leafy green or purple vegetable that is often used in coleslaw and soups. Cabbage is high in vitamins C and K, fiber, and antioxidants, and it has been linked to improved digestion and reduced inflammation.",
         "price": 1.50,
         "rating": 4.4,
@@ -130,6 +146,7 @@
     {
         "id": 17,
         "name": "Peas",
+        "title": "Sweet Peas",
         "description": "Small, green, round vegetables that are sweet and nutritious. Peas are a good source of vitamins A, C, and K, fiber, and protein, and they have been linked to improved heart health and weight management.",
         "price": 1.80,
         "rating": 4.6,
@@ -138,6 +155,7 @@
     {
         "id": 18,
         "name": "Green Beans",
+        "title": "Crunchy Green Beans",
         "description": "Long, green vegetables that are crunchy and nutritious. Green beans are high in vitamins A, C, and K, fiber, and antioxidants, and they have been linked to improved heart health and reduced risk of chronic diseases.",
         "price": 1.90,
         "rating": 4.5,
@@ -146,6 +164,7 @@
     {
         "id": 19,
         "name": "Radish",
+        "title": "Peppery Radish",
         "description": "A small, red or white root vegetable with a peppery flavor. Radishes are low in calories and high in vitamins C and B6, potassium, and fiber, and they have been linked to improved digestion and immune function.",
         "price": 1.20,
         "rating": 4.2,
@@ -154,6 +173,7 @@
     {
         "id": 20,
         "name": "Beetroot",
+        "title": "Sweet Beetroot",
         "description": "A deep red root vegetable that is sweet and earthy in flavor. Beetroot is high in vitamins A and C, folate, and fiber, and it has been linked to improved blood pressure and athletic performance.",
         "price": 1.60,
         "rating": 4.4,
@@ -162,6 +182,7 @@
     {
         "id": 21,
         "name": "Pumpkin",
+        "title": "Large Pumpkin",
         "description": "A large, orange vegetable that is often used in pies and soups. Pumpkin is high in vitamins A and C, potassium, and fiber, and it has been linked to improved heart health and immune function.",
         "price": 3.00,
         "rating": 4.7,
@@ -170,6 +191,7 @@
     {
         "id": 22,
         "name": "Celery",
+        "title": "Crunchy Celery",
         "description": "A crunchy, green vegetable that is often used in salads and soups. Celery is low in calories and high in vitamins A, C, and K, folate, and fiber, and it has been linked to improved digestion and reduced inflammation.",
         "price": 1.50,
         "rating": 4.3,
@@ -178,6 +200,7 @@
     {
         "id": 23,
         "name": "Asparagus",
+        "title": "Unique Asparagus",
         "description": "A green vegetable with a unique flavor, often grilled or steamed. Asparagus is high in vitamins A, C, and K, folate, and fiber, and it has been linked to improved digestion and reduced risk of chronic diseases.",
         "price": 2.75,
         "rating": 4.6,
@@ -186,6 +209,7 @@
     {
         "id": 24,
         "name": "Brussels Sprouts",
+        "title": "Small Brussels Sprouts",
         "description": "Small, green vegetables that are often roasted or steamed. Brussels sprouts are high in vitamins A, C, and K, fiber, and antioxidants, and they have been linked to improved heart health and reduced inflammation.",
         "price": 2.50,
         "rating": 4.4,
@@ -194,6 +218,7 @@
     {
         "id": 25,
         "name": "Mushroom",
+        "title": "Earthy Mushroom",
         "description": "A fungus that is often used in cooking for its earthy flavor. Mushrooms are low in calories and high in vitamins B and D, selenium, and antioxidants, and they have been linked to improved immune function and reduced risk of chronic diseases.",
         "price": 2.00,
         "rating": 4.5,

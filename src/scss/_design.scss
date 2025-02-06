@@ -428,3 +428,70 @@ header{
         }
     }
 }
+
+
+.allProductPage{
+    .mainProducts{
+        padding: 140px 0;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        align-items:normal;
+        justify-content: center;
+        .prod{
+            max-width: 300px;
+            border-radius: 6px;
+            padding: 1rem;
+            background: var(--pure);
+             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+             transition: box-shadow 0.3s ease;
+             &:hover {
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+             }
+             .img{
+                 width: 100%;
+                 img{
+                     width: 100%;
+                     border-radius: 6px;
+                 }
+             }
+             .text{
+                margin-top: 1rem;
+                .title{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .rating{
+                        width: 50px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: .3rem;
+                        img{
+                            width: 15px;
+                        }
+                    }
+                }
+                .priceNnane{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: .7rem;
+                    h5 span{
+                        color: var(--primary);
+                    }
+                }
+                .button{
+                    width: 100%;
+                    margin-top: 1rem;
+                    button{
+                        width: 100%;
+                    }
+                }
+             }
+        }
+    }
+}

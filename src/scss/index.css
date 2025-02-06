@@ -506,6 +506,70 @@ header .mainheader .flexnav {
   margin-top: 2.4rem;
 }
 
+.allProductPage .mainProducts {
+  padding: 140px 0;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  align-items: normal;
+  justify-content: center;
+}
+.allProductPage .mainProducts .prod {
+  max-width: 300px;
+  border-radius: 6px;
+  padding: 1rem;
+  background: var(--pure);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+.allProductPage .mainProducts .prod:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.allProductPage .mainProducts .prod .img {
+  width: 100%;
+}
+.allProductPage .mainProducts .prod .img img {
+  width: 100%;
+  border-radius: 6px;
+}
+.allProductPage .mainProducts .prod .text {
+  margin-top: 1rem;
+}
+.allProductPage .mainProducts .prod .text .title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.allProductPage .mainProducts .prod .text .title .rating {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
+.allProductPage .mainProducts .prod .text .title .rating img {
+  width: 15px;
+}
+.allProductPage .mainProducts .prod .text .priceNnane {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.7rem;
+}
+.allProductPage .mainProducts .prod .text .priceNnane h5 span {
+  color: var(--primary);
+}
+.allProductPage .mainProducts .prod .text .button {
+  width: 100%;
+  margin-top: 1rem;
+}
+.allProductPage .mainProducts .prod .text .button button {
+  width: 100%;
+}
+
 .navIcnM {
   display: none;
 }

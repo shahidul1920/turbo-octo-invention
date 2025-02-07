@@ -23,10 +23,10 @@ export default function Header() {
                 <NavLink to="/product">Product</NavLink>
               </li>
               <li>
-                <NavLink to="/company">services</NavLink>
+                <NavLink to="/services">services</NavLink>
               </li>
               <li>
-                <NavLink to="/services">contact up</NavLink>
+                <NavLink to="/contact">contact up</NavLink>
               </li>
             </ul>
           </div>

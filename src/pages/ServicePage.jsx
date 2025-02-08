@@ -5,7 +5,7 @@ export default function ServicePage() {
     <div>
       {/* service is detail */}
       <div className="serviceInDetail container">
-        <div className="subTitle flex flex-cn">
+        <div className="subTitle flex">
           <img src="/star.png" alt="" />
           <h4>Service Details</h4>
         </div>
@@ -13,7 +13,7 @@ export default function ServicePage() {
           <h1>Deit Programs Services</h1>
         </div>
 
-        <div className="pText flex flex-cn">
+        <div className="pText flex">
           <p>
             Our diet program services are designed to help you achieve your
             health and wellness goals through personalized nutrition plans. We

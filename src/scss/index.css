@@ -567,6 +567,42 @@ header .mainheader .flexnav {
   width: 100%;
 }
 
+.serviceInDetail {
+  padding: 140px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.serviceInDetail .subTitle {
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.serviceInDetail .title h1 {
+  font-size: 36px;
+  color: var(--primary);
+  letter-spacing: 6px;
+}
+.serviceInDetail .pText {
+  width: 100%;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+.serviceInDetail .pText p {
+  max-width: 47%;
+}
+.serviceInDetail .image {
+  width: 100%;
+  height: 350px;
+}
+.serviceInDetail .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+
 .navIcnM {
   display: none;
 }

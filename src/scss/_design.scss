@@ -557,24 +557,35 @@ header{
                     flex-direction: column;
                     gap: 1rem;
                     .faqItem{
-                        background: rgb(219, 245, 219);
+                        width:550px;
+                        //background: var(--pure);
+                        //padding: 1rem;
+                        &:first-child{
+                            .answer{
+                                display: block;
+                            }
+                        }
                         .question{
                             display: flex;
                             justify-content: space-between;
                             align-items: center;
                             gap: 1rem;
-                            padding: 1rem .4rem;
-                            background: var(--primary);
+                            padding: 1rem .6rem;
+                            background: #dbf28a;
                             border-radius: 15px;
-                            color: var(--pure);
+                            color: var(--text);
                             letter-spacing: 2px;
                             svg{
                                 width:25px;
                                 height: auto;
                             }
                         }
-                        .answerN{
+                        .answer{
                             display: none;
+                            padding: 1rem .6rem;
+                        }
+                        .answerN{
+                            display: block;
                         }
                     }
                 }

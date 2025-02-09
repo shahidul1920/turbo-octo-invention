@@ -629,25 +629,32 @@ header .mainheader .flexnav {
   gap: 1rem;
 }
 .faq .container .faqSec .mainFaq .faqContent .faqItem {
-  background: rgb(219, 245, 219);
+  width: 550px;
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem:first-child .answer {
+  display: block;
 }
 .faq .container .faqSec .mainFaq .faqContent .faqItem .question {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  padding: 1rem 0.4rem;
-  background: var(--primary);
+  padding: 1rem 0.6rem;
+  background: #dbf28a;
   border-radius: 15px;
-  color: var(--pure);
+  color: var(--text);
   letter-spacing: 2px;
 }
 .faq .container .faqSec .mainFaq .faqContent .faqItem .question svg {
   width: 25px;
   height: auto;
 }
-.faq .container .faqSec .mainFaq .faqContent .faqItem .answerN {
+.faq .container .faqSec .mainFaq .faqContent .faqItem .answer {
   display: none;
+  padding: 1rem 0.6rem;
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem .answerN {
+  display: block;
 }
 .faq .container .image {
   max-width: 500px;

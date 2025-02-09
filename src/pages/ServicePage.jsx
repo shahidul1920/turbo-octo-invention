@@ -2,10 +2,21 @@ import { Plus } from "lucide-react";
 import React from "react";
 
 export default function ServicePage() {
+
   const toggleAnswer = (e) => {
     const answer = e.target.nextElementSibling;
     answer.classList.toggle("answerN");
+    if(answer.classList.contains("f1")){
+      //e.target.lastElementChild.style.transform = "rotate(0deg)";
+      answer.style.display = "none";
+      answer.classList.remove("f1");
+  }else{
+    //e.target.lastElementChild.style.transform = "rotate(45deg)";
+    answer.style.display = "block";
+    answer.classList.add("f1");
   }
+}
+
   return (
     <div>
       {/* service is detail */}
@@ -63,7 +74,7 @@ export default function ServicePage() {
                     <h3>What is a diet program?</h3>
                     <Plus />
                   </div>
-                  <div className="answer">
+                  <div className="answer f1">
                     <p>
                       A diet program is a structured plan for eating that is
                       designed to help you achieve specific health and wellness

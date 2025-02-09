@@ -1,4 +1,4 @@
-import { Plus } from "lucide-react";
+import { ChevronRight } from "lucide-react";
 import React from "react";
 
 export default function ServicePage() {
@@ -7,11 +7,11 @@ export default function ServicePage() {
     const answer = e.target.nextElementSibling;
     answer.classList.toggle("answerN");
     if(answer.classList.contains("f1")){
-      //e.target.lastElementChild.style.transform = "rotate(0deg)";
+      e.target.lastElementChild.style.transform = "rotate(0deg)";
       answer.style.display = "none";
       answer.classList.remove("f1");
   }else{
-    //e.target.lastElementChild.style.transform = "rotate(45deg)";
+    e.target.lastElementChild.style.transform = "rotate(90deg)";
     answer.style.display = "block";
     answer.classList.add("f1");
   }
@@ -63,7 +63,7 @@ export default function ServicePage() {
           </div>
 
           <div className="title">
-            <h1>Common Questions About Diet Programs</h1>
+            <h1>Common Questions About <br/> Diet Programs</h1>
           </div>
 
           <div className="faqSec">
@@ -72,7 +72,7 @@ export default function ServicePage() {
                 <div className="faqItem">
                   <div className="question flex" onClick={toggleAnswer}>
                     <h3>What is a diet program?</h3>
-                    <Plus />
+                    <ChevronRight />
                   </div>
                   <div className="answer f1">
                     <p>
@@ -87,7 +87,7 @@ export default function ServicePage() {
                 <div className="faqItem">
                   <div className="question flex" onClick={toggleAnswer}>
                     <h3>How can a diet program help me?</h3>
-                    <Plus />
+                    <ChevronRight />
                   </div>
                   <div className="answer">
                     <p>
@@ -104,7 +104,7 @@ export default function ServicePage() {
                 <div className="faqItem">
                   <div className="question flex" onClick={toggleAnswer}>
                     <h3>What can I expect from a diet program?</h3>
-                    <Plus />
+                    <ChevronRight />
                   </div>
                   <div className="answer">
                     <p>
@@ -122,7 +122,7 @@ export default function ServicePage() {
                 <div className="faqItem">
                   <div className="question flex" onClick={toggleAnswer}>
                     <h3>How long does a diet program last?</h3>
-                    <Plus />
+                    <ChevronRight />
                   </div>
                   <div className="answer">
                     <p>

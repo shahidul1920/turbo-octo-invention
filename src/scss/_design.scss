@@ -575,9 +575,13 @@ header{
                             border-radius: 15px;
                             color: var(--text);
                             letter-spacing: 2px;
+                            cursor: pointer;
+                            transition: all .3s ease;
                             svg{
                                 width:25px;
                                 height: auto;
+                                cursor: pointer;
+                                transition: all .3s ease;
                             }
                         }
                         .answer{
@@ -593,7 +597,7 @@ header{
         }
         .image{
             max-width: 500px;
-            height: auto;
+            height: 650px;
             img{
                 width: 100%;
                 height: 100%;

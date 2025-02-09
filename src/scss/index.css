@@ -644,10 +644,14 @@ header .mainheader .flexnav {
   border-radius: 15px;
   color: var(--text);
   letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .faq .container .faqSec .mainFaq .faqContent .faqItem .question svg {
   width: 25px;
   height: auto;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 .faq .container .faqSec .mainFaq .faqContent .faqItem .answer {
   display: none;
@@ -658,7 +662,7 @@ header .mainheader .flexnav {
 }
 .faq .container .image {
   max-width: 500px;
-  height: auto;
+  height: 650px;
 }
 .faq .container .image img {
   width: 100%;

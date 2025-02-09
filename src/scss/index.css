@@ -567,35 +567,93 @@ header .mainheader .flexnav {
   width: 100%;
 }
 
-.serviceInDetail {
+.serviceInDetail, .faq {
   padding: 140px 0;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
-.serviceInDetail .subTitle {
+.serviceInDetail .subTitle, .faq .subTitle {
   gap: 0.5rem;
   align-items: center;
   justify-content: flex-start;
 }
-.serviceInDetail .title h1 {
+.serviceInDetail .title h1, .faq .title h1 {
   font-size: 36px;
   color: var(--primary);
   letter-spacing: 6px;
 }
-.serviceInDetail .pText {
+.serviceInDetail .pText, .faq .pText {
   width: 100%;
   gap: 2rem;
   flex-wrap: wrap;
 }
-.serviceInDetail .pText p {
+.serviceInDetail .pText p, .faq .pText p {
   max-width: 47%;
 }
-.serviceInDetail .image {
+.serviceInDetail .image, .faq .image {
   width: 100%;
   height: 350px;
 }
-.serviceInDetail .image img {
+.serviceInDetail .image img, .faq .image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 25px;
+}
+
+.faq {
+  width: 100%;
+  background: var(--secondary);
+}
+.faq .container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.faq .container .faqSec {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+.faq .container .faqSec .mainFaq {
+  max-width: 600px;
+}
+.faq .container .faqSec .mainFaq .faqContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem {
+  background: rgb(219, 245, 219);
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0.4rem;
+  background: var(--primary);
+  border-radius: 15px;
+  color: var(--pure);
+  letter-spacing: 2px;
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem .question svg {
+  width: 25px;
+  height: auto;
+}
+.faq .container .faqSec .mainFaq .faqContent .faqItem .answerN {
+  display: none;
+}
+.faq .container .image {
+  max-width: 500px;
+  height: auto;
+}
+.faq .container .image img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;

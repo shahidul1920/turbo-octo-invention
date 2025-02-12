@@ -1,4 +1,4 @@
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, CircleCheck } from "lucide-react";
 import React from "react";
 
 export default function ServicePage() {
@@ -143,6 +143,120 @@ export default function ServicePage() {
           </div>
         </div>
       </div>
+
+      {/* pricing */}
+
+      <div className="pricingSec">
+
+        <div className="title container">
+          <div className="subTitle">
+          <img src="/star.png" alt="" />
+          <h4>Pricing</h4>
+          </div>
+          <h1>Choose a Plan That Works for You</h1>
+        </div>
+
+        <div className="container flex flex-cn">
+
+          {/* 1 */}
+
+          <div className="priceCard">
+
+            <div className="headNp">
+              <h2>Bronze Plan</h2>
+              <p>
+                Our Bronze Plan is perfect for those looking to get started on
+                their health and wellness journey.
+              </p>
+            </div>
+
+            <div className="price">
+              <h1>$199</h1><span>/month</span>
+            </div>
+
+            <div className="featureList">
+              <ul>
+                <li><CircleCheck /> Personalized nutrition plan</li>
+                <li><CircleCheck /> Meal ideas</li>
+                <li><CircleCheck /> Ongoing support</li>
+                <li><CircleCheck /> 24/7 Support</li>
+              </ul>
+            </div>
+
+            <div className="button">
+              <button className="btn btn-p">Get Started</button>
+            </div>
+
+          </div>
+
+          {/* 2 */}
+
+          <div className="priceCard">
+
+            <div className="headNp">
+              <h2>Gold Plan</h2>
+              <p>
+                Gold Plan is perfect for those looking to get started on
+                their health and wellness journey.
+              </p>
+            </div>
+
+            <div className="price">
+              <h1>$299</h1><span>/month</span>
+            </div>
+
+            <div className="featureList">
+              <ul>
+                <li><CircleCheck /> Personalized nutrition plan</li>
+                <li><CircleCheck /> Meal ideas</li>
+                <li><CircleCheck /> Ongoing support</li>
+                <li><CircleCheck /> 24/7 Support</li>
+              </ul>
+            </div>
+
+            <div className="button">
+              <button className="btn btn-s">Get Started</button>
+            </div>
+
+          </div>
+
+          {/* 3 */}
+
+          <div className="priceCard">
+
+            <div className="headNp">
+              <h2>Diamont Plan</h2>
+              <p>
+                Diamont Plan is perfect for those looking to get started on
+                their health and wellness journey.
+              </p>
+            </div>
+
+            <div className="price">
+              <h1>$399</h1><span>/month</span>
+            </div>
+
+            <div className="featureList">
+              <ul>
+                <li><CircleCheck /> Personalized nutrition plan</li>
+                <li><CircleCheck /> Meal ideas</li>
+                <li><CircleCheck /> Ongoing support</li>
+                <li><CircleCheck /> 24/7 Support</li>
+              </ul>
+            </div>
+
+            <div className="button">
+              <button className="btn btn-p">Get Started</button>
+            </div>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+
     </div>
   );
 }

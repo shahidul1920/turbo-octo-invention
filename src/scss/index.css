@@ -662,7 +662,8 @@ header .mainheader .flexnav {
 }
 .faq .container .image {
   max-width: 500px;
-  height: 650px;
+  min-height: 650px;
+  max-height: 750px;
 }
 .faq .container .image img {
   width: 100%;
@@ -670,6 +671,68 @@ header .mainheader .flexnav {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 25px;
+}
+
+.pricingSec {
+  padding: 140px 0;
+}
+.pricingSec .title.container {
+  text-align: center;
+  padding: 70px 0;
+}
+.pricingSec .title.container .subTitle {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+}
+.pricingSec .container {
+  gap: 2rem;
+}
+.pricingSec .container .priceCard {
+  max-width: 350px;
+  padding: 2.5rem 1.5rem;
+  border: var(--text) 1px solid;
+  border-radius: 15px;
+  text-align: center;
+  display: grid;
+  gap: 1.5rem;
+}
+.pricingSec .container .priceCard:nth-child(2) {
+  border: none;
+  background: var(--secondary);
+  scale: 1.1;
+}
+.pricingSec .container .priceCard .headNp h2 {
+  font-size: 36px;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+.pricingSec .container .priceCard .headNp p {
+  font-size: 16px;
+  color: var(--text);
+  line-height: 24px;
+}
+.pricingSec .container .priceCard .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pricingSec .container .priceCard .featureList ul {
+  display: grid;
+  gap: 0.8rem;
+}
+.pricingSec .container .priceCard .featureList ul li {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.pricingSec .container .priceCard .featureList ul li svg {
+  width: 20px;
+  height: auto;
+  color: var(--primary);
 }
 
 .navIcnM {

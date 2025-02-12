@@ -608,3 +608,69 @@ header{
         }
     }
 }
+
+.pricingSec{
+    padding: 140px 0;
+    .title.container{
+        text-align: center;
+        padding: 70px 0;
+        .subTitle{
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+        }
+    }
+    .container{
+        gap: 2rem;
+        .priceCard{
+            max-width: 350px;
+            padding: 2.5rem 1.5rem;
+            border: var(--text) 1px solid;
+            border-radius: 15px;
+            text-align: center;
+            display: grid;
+            gap: 1.5rem;
+            &:nth-child(2){
+                border: none;
+                background: var(--secondary);
+                scale: 1.1;
+            }
+            .headNp{
+                h2{
+                    font-size: 36px;
+                    color: var(--primary);
+                    margin-bottom: .5rem;
+                }
+                p{
+                    font-size: 16px;
+                    color: var(--text);
+                    line-height: 16*1.5px;
+                }
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .featureList{
+                ul{
+                    display: grid;
+                    gap: .8rem;
+                    li{
+                        display: flex;
+                        gap: .5rem;
+                        align-items: center;
+                        justify-content: center;
+                        svg{
+                            width: 20px;
+                            height: auto;
+                            color: var(--primary);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

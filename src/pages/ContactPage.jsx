@@ -26,6 +26,7 @@ export default function ContactPage() {
         </div>
       </div>
 
+      <div className="contactSection">
       <div className="contactDetails container">
         <div className="card location">
           <MapPin />
@@ -44,6 +45,7 @@ export default function ContactPage() {
           <p>shahidulshakil@protton.me</p>
           <p>shahidulshakil@gmail.com</p>
         </div>
+      </div>
       </div>
 
       {/* form section */}

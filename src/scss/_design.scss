@@ -679,6 +679,7 @@ header{
 // contact page
 
 .textNtitle{
+    background: var(--secondary);
     padding: 140px 0;
     padding-bottom: 20px;
     .subTitle{
@@ -703,6 +704,10 @@ header{
             margin-bottom: 2rem;
         }
     }
+}
+.contactSection{
+    background: var(--secondary);
+
 }
 .contactDetails{
     display: flex;

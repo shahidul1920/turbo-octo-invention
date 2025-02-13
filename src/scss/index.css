@@ -736,6 +736,7 @@ header .mainheader .flexnav {
 }
 
 .textNtitle {
+  background: var(--secondary);
   padding: 140px 0;
   padding-bottom: 20px;
 }
@@ -760,6 +761,10 @@ header .mainheader .flexnav {
 }
 .textNtitle .title p span {
   color: var(--primary);
+}
+
+.contactSection {
+  background: var(--secondary);
 }
 
 .contactDetails {

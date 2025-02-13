@@ -737,6 +737,7 @@ header .mainheader .flexnav {
 
 .textNtitle {
   padding: 140px 0;
+  padding-bottom: 20px;
 }
 .textNtitle .subTitle {
   gap: 0.5rem;
@@ -759,6 +760,115 @@ header .mainheader .flexnav {
 }
 .textNtitle .title p span {
   color: var(--primary);
+}
+
+.contactDetails {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 120px;
+}
+.contactDetails .card {
+  max-width: 350px;
+  height: 200px;
+  flex: 1;
+  display: grid;
+  place-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem;
+  border: var(--secondary) 1px solid;
+  border-radius: 15px;
+}
+.contactDetails .card svg {
+  width: 30px;
+  height: auto;
+  color: var(--primary);
+}
+.contactDetails .card p {
+  font-size: 16px;
+  color: gray;
+}
+
+.formSection {
+  padding: 70px 0;
+  flex-wrap: wrap;
+}
+.formSection .text, .formSection .form {
+  flex: 1;
+}
+.formSection .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.formSection .text .subTitle {
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formSection .text .subTitle h4 {
+  color: var(--primary);
+}
+.formSection .text .title {
+  margin: 20px 0;
+}
+.formSection .text .title p {
+  font-size: 16px;
+  color: gray;
+  line-height: 24px;
+  max-width: 550px;
+}
+.formSection .text .socialIcons {
+  display: flex;
+  gap: 1rem;
+}
+.formSection .text .socialIcons a {
+  text-decoration: none;
+  color: inherit;
+}
+.formSection .text .socialIcons a svg {
+  width: 30px;
+  height: auto;
+  color: var(--primary);
+}
+.formSection .form form {
+  display: grid;
+  gap: 1rem;
+}
+.formSection .form form .name {
+  display: flex;
+  gap: 1rem;
+}
+.formSection .form form .name input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  outline: none;
+}
+.formSection .form form .email input {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  outline: none;
+}
+.formSection .form form .message textarea {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  border: 1px solid rgb(212, 212, 212);
+  border-radius: 6px;
+  outline: none;
+}
+.formSection .form form button {
+  width: 100%;
+  padding: 1rem;
 }
 
 .navIcnM {

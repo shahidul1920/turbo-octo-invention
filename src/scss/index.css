@@ -735,6 +735,32 @@ header .mainheader .flexnav {
   color: var(--primary);
 }
 
+.textNtitle {
+  padding: 140px 0;
+}
+.textNtitle .subTitle {
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+.textNtitle .title {
+  text-align: center;
+}
+.textNtitle .title h1 {
+  font-size: 36px;
+  color: var(--primary);
+  letter-spacing: 6px;
+}
+.textNtitle .title p {
+  font-size: 16px;
+  color: var(--text);
+  margin: 0;
+  margin-bottom: 2rem;
+}
+.textNtitle .title p span {
+  color: var(--primary);
+}
+
 .navIcnM {
   display: none;
 }

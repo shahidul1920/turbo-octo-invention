@@ -153,7 +153,11 @@ export default function ServicePage() {
             <img src="/star.png" alt="" />
             <h4>Pricing</h4>
           </div>
-          <h1>Choose a Plan That Works for You</h1>
+          <h1>
+
+            We are here to provide you with the best diet program services.
+
+          </h1>
         </div>
 
         <div className="container flex flex-cn">

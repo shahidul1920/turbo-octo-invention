@@ -954,4 +954,19 @@ header .mainheader .flexnav {
   .main-footer .subsSecction .text h1 {
     font-size: 22px;
   }
+  .serviceInDetail, .faq {
+    padding: 90px 0;
+  }
+  .faq .container .faqSec .mainFaq .faqContent .faqItem {
+    width: 100%;
+  }
+  .pricingSec {
+    padding: 40px 0;
+  }
+  .pricingSec .container {
+    flex-wrap: wrap;
+  }
+  .serviceInDetail .pText p, .faq .pText p {
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=index.css.map */

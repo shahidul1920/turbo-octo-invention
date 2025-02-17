@@ -776,7 +776,7 @@ header .mainheader .flexnav {
   padding-bottom: 120px;
 }
 .contactDetails .card {
-  max-width: 350px;
+  min-width: 350px;
   height: 200px;
   flex: 1;
   display: grid;
@@ -802,6 +802,7 @@ header .mainheader .flexnav {
   flex-wrap: wrap;
 }
 .formSection .text, .formSection .form {
+  min-width: 320px;
   flex: 1;
 }
 .formSection .text {
@@ -968,5 +969,11 @@ header .mainheader .flexnav {
   }
   .serviceInDetail .pText p, .faq .pText p {
     max-width: 100%;
+  }
+  .formSection.container {
+    padding: 90px 25px;
+  }
+  .formSection .text {
+    margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=index.css.map */
